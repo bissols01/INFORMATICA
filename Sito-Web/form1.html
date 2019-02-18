@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
+  <title>User Input Form</title>
+</head>
+ 
+<body>
+<h2>User Input Form</h2>
+<form method="POST" action="Prenota.jsp">
+  <fieldset>
+    <legend>Informazioni personali che verranno comprate da Mark Zuckerberg</legend>
+    Cognome: <input type="text" name="username" /><br /><br />
+    
+    <select name="classe">
+  <option value=""></option>  
+  <option value="1E INF">1E INF</option>
+  <option value="2E INF">2E INF</option>
+  <option value="3E INF">3E INF</option>
+  <option value="4E INF">4E INF</option>
+  <option value="5E INF">5E INF</option>
+  </select>
+  <br> 
+  <h2>Desidera visualizzare i compiti?</h2>
+  
+  <input type="radio" name="compiti" value="Si"> Sì<br>
+  <input type="radio" name="compiti" value="" checked> No<br>
+  
+  <h2>Con chi desidera prenotare un colloquio?</h2>
+  
+  <div class="form-check-inline">
+                        
+                    </div>
+                    <p class="padding">Seleziona i professori con cui vuole avere un colloquio</p>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Giraldi Laura
+                            <input class="form-check-input" type="checkbox" name="Giraldi Laura" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Titze Walter
+                            <input class="form-check-input" type="checkbox" name="Titze Walter" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Spadoni Riccardo
+                            <input class="form-check-input" type="checkbox" name="Spadoni Riccardo" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Capozzi Giuseppe
+                            <input class="form-check-input" type="checkbox" name="Capozzi Giuseppe" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Carrara Maria Grazia
+                            <input class="form-check-input" type="checkbox" name="Carrara Maria Grazia" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Malizia Fabio
+                            <input class="form-check-input" type="checkbox" name="Malizia Fabio" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Apicella Annalisa
+                            <input class="form-check-input" type="checkbox" name="Apicella Annalisa" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label">Bellocco Paola
+                            <input class="form-check-input" type="checkbox" name="Bellocco Paola" value="yes">
+                        </label>
+                    </div>
+                    <div class="form-check-inline">
+                        <label class="form-check-label"> Arcostanzo Piero
+                            <input class="form-check-input" type="checkbox" name="Arcostanzo Piero" value="yes">
+                        </label>
+</div>
+  
+  </fieldset>
+  
+  
+ 
+  
+ 
+ 
+ 
+  <input type="hidden" name="secret" value="888" />
+  <input type="submit" value="SEND" />
+  <input type="reset" value="CLEAR" />
+</form>
+</body>
+</html>
