@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <style>
+    p{
+        display:inline;
+        color:red;
+    }
+    </style>
+    <title>Modificare la Data di Nascita di un Giudice</title>
+</head>
+
+<body>
+   <form method="post" action="/jsp/update.jsp">
+    <p>Nome*</p><input type="text" name="Nome" required><br><br>
+    <p>Cognome*</p><input type="text" name="Cognome" required><br><br>
+    <p>Nuova Data di Nascita*</p><input type="date" name="DataDiNascita" required><br><br>
+    
+    
+    <input type="submit" value="Modifica Giudice"/>
+   </form>
+</body>
+</html>
