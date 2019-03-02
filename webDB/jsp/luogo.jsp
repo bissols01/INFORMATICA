@@ -5,9 +5,37 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <style>
+    h1{
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
+    p{
+        
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
+    td{
+        text-align:center;
+    }
+    tr{
+        text-align:center;
+    }
+    table{
+        text-align:center;
+    }
+    </style>
         <title>Elenco giudici XFactor</title>
     </head>
-    <body>
+    <body background="sfondo.jpg">
      <% 
      if(request.getParameter("luogo")==null || request.getParameter("luogo").isEmpty()){
       %>

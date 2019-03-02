@@ -5,9 +5,29 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <style>
+    h1{
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
+    p{
+        
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
+    </style>
+
         <title>Creare un Giudice</title>
     </head>
-    <body>
+    <body background="sfondo.jpg">
     
 
        <% 
@@ -44,7 +64,11 @@
 						
 			 ps1.executeUpdate();
 			
-     %> <h1 style="color:blue">Giudice Creato! </h1> 
+     %> <form method="post" action="/html/home.html">
+	            <h2 style="color:green; text-align:center;">GIUDICE CREATO!</h2>
+	            
+	            <p ><input type="submit" value="OK"/></p>
+	            </form>
      <%
 			
 	        

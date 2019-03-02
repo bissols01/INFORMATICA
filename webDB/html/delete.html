@@ -3,21 +3,34 @@
 <head>
 <meta charset="UTF-8">
     <style>
+    h1{
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
     p{
-        display:inline;
-        color:red;
+        
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
     }
     </style>
     <title>Eliminare un Giudice</title>
 </head>
 
-<body>
+<body background="sfondo.jpg">
    <form method="post" action="/jsp/delete.jsp">
-    <p>Nome*</p><input type="text" name="Nome" required><br><br>
-    <p>Cognome*</p><input type="text" name="Cognome" required><br><br>
+    <p>Nome<input type="text" name="Nome" required><br><br></p>
+    <p>Cognome<input type="text" name="Cognome" required><br><br></p>
     
     
-    <input type="submit" value="Elimina Giudice"/>
+    <p><input type="submit" value="Elimina Giudice"/></p>
    </form>
 </body>
 </html>

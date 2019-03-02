@@ -6,9 +6,28 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <style>
+    h1{
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
+    p{
+        
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+        text-shadow: 2px 2px #000000;
+        text-outline-color:black;
+    }
+    </style>
         <title>Elenco giudici XFactor</title>
     </head>
-    <body>
+    <body background="sfondo.jpg">
         <h1>Elenco dei giudici di XFactor</h1>
         <% 
             
@@ -24,7 +43,7 @@
 			
 			ResultSet rs = stmt.executeQuery(sql);
 			
-			out.print("<table style='border: 1px solid black;'>");
+			out.print("<p><table style='border: 1px solid black; text-align:center;'>");
 			
 			out.print("<tr style='border: 1px solid black;'><th align=left>Cognome</th><th align=left>Nome</th></tr>");
 			
@@ -37,7 +56,7 @@
 
 	        }
 	        
-	        out.print("</table>");
+	        out.print("</table></p>");
 	        
 	        rs.close();
 	        

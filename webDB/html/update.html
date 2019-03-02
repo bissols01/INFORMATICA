@@ -2,23 +2,32 @@
 <html>
 <head>
 <meta charset="UTF-8">
-    <style>
+     <style>
+    h1{
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
+    }
     p{
-        display:inline;
-        color:red;
+        
+        color:white;
+        text-align:center;
+        font-size:200%;
+        font-family:impact;
     }
     </style>
     <title>Modificare la Data di Nascita di un Giudice</title>
 </head>
 
-<body>
+<body background="sfondo.jpg">
    <form method="post" action="/jsp/update.jsp">
-    <p>Nome*</p><input type="text" name="Nome" required><br><br>
-    <p>Cognome*</p><input type="text" name="Cognome" required><br><br>
-    <p>Nuova Data di Nascita*</p><input type="date" name="DataDiNascita" required><br><br>
+    <p>Nome<input type="text" name="Nome" required><br><br></p>
+    <p>Cognome<input type="text" name="Cognome" required></p><br><br>
+    <p>Nuova Data di Nascita<input type="date" name="DataDiNascita" required><br><br></p>
     
     
-    <input type="submit" value="Modifica Giudice"/>
+    <p><input type="submit" value="Modifica Giudice"/></p>
    </form>
 </body>
 </html>
